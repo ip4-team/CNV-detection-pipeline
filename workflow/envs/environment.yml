@@ -1,0 +1,13 @@
+name: CNV-detection-pipeline
+channels:
+  - bioconda
+  - conda-forge 
+dependencies:
+  - r-base=4.1.0
+  - snakemake=6.6.1
+  - python=3.9
+  - cnvpytor=1.0
+  - cnvkit=0.9.9
+  - pip
+  - pip:
+      - bedhandler

@@ -1,0 +1,24 @@
+from snakemake.utils import min_version
+
+
+min_version('6.4.1')
+
+# noinspection PyUnresolvedReferences
+configfile: 'config/config.yaml'
+
+
+wildcard_constraints:
+    sample=config['common']['sample-regex']
+
+
+include: 'rules/common.smk'
+include: 'rules/cnvkit.smk'
+include: 'rules/cnvpytor.smk'
+include: 'rules/exomedepth.smk'
+
+
+rule all:
+    input:
+        expand("results/cnvkit/{sample}/{sample}_reference.cnn", sample=list(test_samples.index)),
+        expand("results/exomedepth/{sample}/{sample}_cnvs.csv", sample=list(test_samples.index)),
+        expand("results/cnvpytor/{sample}/{sample}_cnvs.csv", sample=list(test_samples.index))

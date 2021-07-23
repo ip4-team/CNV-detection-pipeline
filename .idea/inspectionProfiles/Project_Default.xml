@@ -1,0 +1,120 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="65" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/2000/svg" />
+          <option value="http://www.w3.org/2000/10/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema" />
+          <option value="http://www.w3.org/2001/XMLSchema-instance" />
+          <option value="http://www.w3.org/2001/XInclude" />
+          <option value="http://www.w3.org/2003/03/wsdl" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/xml/ns/" />
+          <option value="http://java.sun.com/jsp/" />
+          <option value="http://java.sun.com/JSP/" />
+          <option value="http://java.sun.com/j2ee/dtds/" />
+          <option value="http://java.sun.com/dtd/" />
+          <option value="http://xmlns.jcp.org/xml/ns/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://schemas.android.com/" />
+          <option value="http://jakarta.apache.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://bowtie-bio.sourceforge.net" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="rules.preprocess.get_cov" />
+          <option value="rules.preprocess.OUTPUT_DIR" />
+          <option value="rules.commom.pd" />
+          <option value="rules.commom.test_samples" />
+          <option value="rules.commom.baseline_samples" />
+          <option value="Snakefile.load_samples_table" />
+          <option value="Snakefile.load_sample_ids" />
+          <option value="Snakefile.get_ids" />
+          <option value="rules.common.pd" />
+          <option value="rules.common.test_samples" />
+          <option value="rules.common.baseline_samples" />
+          <option value="rules.cnvcall.get_test" />
+          <option value="rules.cnvcall.get_baseline" />
+          <option value="rules.cnvcall.OUTPUT_DIR" />
+          <option value="rules.cnvcall.build_df" />
+          <option value="rules.cnvcall.test_samples" />
+          <option value="rules.cnvcall.baseline_samples" />
+          <option value="rules.cnvcall.FILTER_OPT" />
+          <option value="rules.cnvcall.RD_WINDOW_SIZE" />
+          <option value="rules.cnvcall.RD_WINDOW_STEP" />
+          <option value="Snakefile.get_test_sample_ids" />
+          <option value="rules.cnvcall.cfg_creator" />
+          <option value="Snakefile.load_sample_info" />
+          <option value="rules.common.OUTPUT_DIR" />
+          <option value="rules.annotation.OUTPUT_DIR" />
+          <option value="rules.annotation.FILTER_OPT" />
+          <option value="rules.annotation.RD_WINDOW_SIZE" />
+          <option value="rules.annotation.RD_WINDOW_STEP" />
+          <option value="rules.common.FILTER_OPT" />
+          <option value="rules.common.RD_WINDOW_SIZE" />
+          <option value="rules.common.RD_WINDOW_STEP" />
+          <option value="rules.cnvcall.get_sample_cov" />
+          <option value="rules.annotation.get_sample_cov" />
+          <option value="rules.create_inputs.OUTPUT_DIR" />
+          <option value="rules.create_inputs.FILTER_OPT" />
+          <option value="rules.create_inputs.RD_WINDOW_SIZE" />
+          <option value="rules.create_inputs.RD_WINDOW_STEP" />
+          <option value="rules.filter.OUTPUT_DIR" />
+          <option value="rules.filter.FILTER_OPT" />
+          <option value="rules.filter.RD_WINDOW_SIZE" />
+          <option value="rules.filter.RD_WINDOW_STEP" />
+          <option value="rules.common.USE_VARIANTS" />
+          <option value="rules.cnvcall.USE_VARIANTS" />
+          <option value="rules.classify.OUTPUT_DIR" />
+          <option value="rules.classify.FILTER_OPT" />
+          <option value="rules.classify.RD_WINDOW_SIZE" />
+          <option value="rules.classify.RD_WINDOW_STEP" />
+          <option value="rules.create_spreadsheet.LOCAL_ANNOTATION" />
+          <option value="rules.create_spreadsheet.OUTPUT_DIR" />
+          <option value="rules.create_spreadsheet.FILTER_OPT" />
+          <option value="rules.create_spreadsheet.RD_WINDOW_SIZE" />
+          <option value="rules.create_spreadsheet.RD_WINDOW_STEP" />
+          <option value="workflow.Snakefile.expand" />
+          <option value="workflow.Snakefile.get_all_sample_ids" />
+          <option value="workflow.rules.cnvkit.get_bam_input" />
+          <option value="workflow.rules.cnvkit.get_all_bam_files" />
+          <option value="workflow.rules.cnvkit.get_cnvkit_reference_input" />
+          <option value="workflow.rules.cnvkit.directory" />
+          <option value="workflow.Snakefile.directory" />
+          <option value="workflow.Snakefile.test_samples" />
+          <option value="workflow.rules.cnvkit.get_baseline_for_sample" />
+          <option value="workflow.rules.cnvpytor.*" />
+          <option value="workflow.rules.cnvkit.*" />
+          <option value="workflow.Snakefile.*" />
+          <option value="workflow.rules.exomedepth.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

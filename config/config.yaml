@@ -1,0 +1,32 @@
+# genome reference that reads were aligned to
+reference:
+  build: hg19
+  fasta: resources/mocks/genome.fasta
+
+
+exome:
+  # amplicon (amplification) or hybrid (capture) for exome analysis
+  method: amplicon
+  targets: resources/mocks/targets.bed
+
+
+test-samples:
+  table: config/test-samples.tsv
+  dir: resources/mocks/exomes
+
+
+baseline-samples:
+  table: config/baseline-samples.tsv
+  dir: resources/mocks/exomes
+
+
+common:
+  # whether to split tests considering samples' sex
+  match-sex: false
+  sample-regex: '[a-zA-Z]+-\d+'
+
+
+exome-depth:
+  # mirror to download R packages from
+  # find the CRAN mirror nearest to you to minimize network load on https://cran.r-project.org
+  repository: https://cran-r.c3sl.ufpr.br/
